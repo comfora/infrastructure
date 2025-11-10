@@ -5,7 +5,7 @@
             "type": 3,
             "title": "Newt Tunnel",
             "description": "Tunnelling service for Pangolin service.",
-            "note": "Configure environment variables PANGOLIN_ENDPOINT, NEWT_ID, and NEWT_SECRET before deploying. See docs.pangolin.net for documentation.",
+            "note": "Configure environment variables PANGOLIN_ENDPOINT, NEWT_ID, and NEWT_SECRET before deploying. See <a href=\"https://docs.pangolin.net\" target=\"_blank\" rel=\"noopener noreferrer\">docs.pangolin.net</a> for documentation relating to Pangolin and Newt Tunnel service.",
             "categories": ["VPNs & Proxies", "Enterprise Licensed"],
             "platform": "linux",
             "logo": "https://icons.comfora.org/pangolin/ffcc4d",
