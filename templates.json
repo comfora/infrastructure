@@ -21,7 +21,6 @@
                     "title": "Pangolin Endpoint",
                     "description": "URL Endpoint that Pangolin is hosted on.",
                     "default": "https://pangolin.comfora.org",
-                    "preset": true,
                     "required": true
                 },
                 {
