@@ -1,0 +1,44 @@
+{
+    "version": "2",
+    "templates": [
+        {
+            "type": 3,
+            "title": "Newt Tunnel",
+            "description": "Tunnelling service for Pangolin service.",
+            "note": "Configure environment variables PANGOLIN_ENDPOINT, NEWT_ID, and NEWT_SECRET before deploying. See docs.pangolin.net for documentation.",
+            "categories": ["VPNs & Proxies", "Enterprise Licensed"],
+            "platform": "linux",
+            "logo": "https://icons.comfora.org/pangolin/ffcc4d",
+            "repository": {
+                "url": "https://github.com/comfora/infrastructure",
+                "stackfile": "docker/newt/docker-compose.yml"
+            },
+            "administrator_only": true,
+            "env": [
+                {
+                    "name": "PANGOLIN_ENDPOINT",
+                    "type": "text",
+                    "title": "Pangolin Endpoint",
+                    "description": "URL Endpoint that Pangolin is hosted on.",
+                    "default": "https://pangolin.comfora.org",
+                    "preset": true,
+                    "required": true
+                },
+                {
+                    "name": "NEWT_ID",
+                    "type": "text",
+                    "title": "Newt ID",
+                    "description": "Refer to site creation credentials for the Newt service ID.",
+                    "required": true
+                },
+                {
+                    "name": "NEWT_SECRET",
+                    "type": "text",
+                    "title": "Newt Secret",
+                    "description": "Refer to site creation credentials for the Newt service secret.",
+                    "required": true
+                }
+            ]
+        }
+    ]
+}
