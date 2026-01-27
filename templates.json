@@ -38,6 +38,30 @@
                     "required": true
                 }
             ]
+        },
+        {
+            "type": 3,
+            "title": "Icons",
+            "description": "Icon proxy service powered by selfh-st.",
+            "note": "Configure environment variable PORT before deploying.",
+            "categories": ["Utilities", "Public"],
+            "platform": "linux",
+            "logo": "https://icons.comfora.org/selfh.st/ffcc4d",
+            "repository": {
+                "url": "https://github.com/comfora/infrastructure",
+                "stackfile": "docker/icons/docker-compose.yml"
+            },
+            "administrator_only": true,
+            "env": [
+                {
+                    "name": "PORT",
+                    "type": "text",
+                    "title": "Port",
+                    "description": "Port number for the Icons service.",
+                    "default": "4000",
+                    "required": true
+                }
+            ]
         }
     ]
 }

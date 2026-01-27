@@ -1,0 +1,13 @@
+# This file is designed for Pangolin Blueprints, view https://docs.pangolin.net/manage/blueprints for more information.
+
+proxy-resources:
+  icon-proxies:
+    name: Icons
+    protocol: http
+    full-domain: icons.comfora.org
+    targets:
+      - site: <SITE> # Replace this with active site(s)
+        hostname: selfhst-icons
+        method: http
+        port: 4000 # Change this to corresponding port
+      # Duplicate target designation for more proxies.

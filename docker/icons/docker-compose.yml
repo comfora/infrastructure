@@ -1,0 +1,17 @@
+services:
+  selfhst-icons:
+    image: ghcr.io/selfhst/icons:latest
+    container_name: selfhst-icons
+    restart: unless-stopped
+    ports:
+      - ${PORT}:${PORT}
+    environment:
+      PORT: ${PORT}
+      ICON_SOURCE: remote
+      STANDARD_ICON_FORMAT: webp
+    networks:
+      - pangolin
+
+networks:
+  pangolin:
+    external: true
