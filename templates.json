@@ -4,7 +4,7 @@
         {
             "type": 3,
             "title": "Newt Tunnel",
-            "description": "Tunnelling service for Pangolin service.",
+            "description": "Tunnelling daemon for Pangolin service.",
             "note": "Configure environment variables PANGOLIN_ENDPOINT, NEWT_ID, and NEWT_SECRET before deploying. See <a href=\"https://docs.pangolin.net\" target=\"_blank\" rel=\"noopener noreferrer\">docs.pangolin.net</a> for documentation relating to Pangolin and Newt Tunnel service.",
             "categories": ["VPNs & Proxies", "Enterprise Licensed"],
             "platform": "linux",
@@ -46,7 +46,7 @@
             "note": "Configure environment variable PORT before deploying.",
             "categories": ["Utilities", "Public"],
             "platform": "linux",
-            "logo": "https://icons.comfora.org/selfh.st/ffcc4d",
+            "logo": "https://icons.comfora.org/selfh-st/ffcc4d",
             "repository": {
                 "url": "https://github.com/comfora/infrastructure",
                 "stackfile": "docker/icons/docker-compose.yml"
