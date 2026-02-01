@@ -1,6 +1,6 @@
 # Infrastructure
 
-IAC (Infrastructure-as-code) repository for internal services deployed on our infrastructure or cloud providers.
+Open-sourced internal repository of services and documentation primarily for Comfora while providing a knowledge garden for all.
 
 > [!IMPORTANT]
 > Comfora is dedicated to having **complete transparency** within the organization, which is why we're **open-sourcing** our `comfora/infrastructure` repository for community guidance and library of resources.
