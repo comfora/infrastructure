@@ -5,7 +5,7 @@ Open-sourced internal repository of services and documentation primarily for Com
 > [!IMPORTANT]
 > Comfora is dedicated to having **complete transparency** within the organization, which is why we're **open-sourcing** our `comfora/infrastructure` repository for community guidance and library of resources.
 >
-> However, some documentation and or aspects  will remain internal or remain abstracted as to allow some security to be had within our organization. 
+> However, some documentation and or aspects  will remain internal or remain abstracted as to allow some confidentiality to be had within our organization. 
 
 ## Comfora SSO
 
